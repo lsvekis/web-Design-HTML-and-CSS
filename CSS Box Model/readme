@@ -1,0 +1,22 @@
+Below is a comprehensive learning package focused exclusively on CSS Box Model & Layout Techniques. This package includes:
+100 hands‑on coding exercises with complete code examples and detailed explanations.
+25 multiple‑choice quiz questions with full answer explanations.
+You’ll work through topics including the CSS box model (content, padding, border, margin), sizing (width, height, max‑width, min‑height), display properties (block, inline, inline‑block, none), and layout controls (overflow, visibility, z‑index). By the end, you will have a strong foundation in laying out and designing web pages using these essential CSS techniques.
+
+What You Will Learn
+CSS Box Model:
+Understand how every element is structured with content, padding, border, and margin.
+Sizing Properties:
+Learn how to set an element’s width and height and constrain it with max‑width and min‑height.
+Display Properties:
+Know the differences between block, inline, inline‑block, and none, and how they affect element layout.
+Overflow, Visibility, and z‑index:
+Control how content is handled when it overflows its container, toggle element visibility, and layer elements with z‑index.
+
+Learning Objectives
+By completing these exercises you will be able to:
+Explain the CSS box model and how padding, borders, and margins work together.
+Set dimensions for elements and constrain them using maximum and minimum values.
+Understand and use different display properties to control layout.
+Handle overflow situations and control element stacking with z‑index.
+Build layouts that respond gracefully to content size and viewport constraints.
