@@ -1,0 +1,25 @@
+Below is a comprehensive learning package focused exclusively on Responsive Web Design (RWD) using only HTML and CSS. This package includes:
+100 hands‑on coding exercises with complete code examples and detailed explanations.
+25 multiple‑choice quiz questions with full explanations of the answers.
+All exercises are based solely on HTML and CSS code and cover the following topics:
+Introduction to RWD and Why It Matters: Learn what responsive web design is, why it’s important, and its benefits for usability and accessibility.
+Viewport Meta Tag: Understand how to set the viewport for mobile devices.
+Media Queries: Use @media rules with max-width and min-width to apply styles conditionally.
+Fluid Layouts, Percentage Widths, and vh/vw Units: Build flexible layouts that adapt to various screen sizes using relative units.
+Mobile‑First vs. Desktop‑First Approach: Learn about the different design strategies and when to use each.
+
+What You Will Learn
+Responsive Concepts: Understand the principles behind RWD and why flexible, fluid designs improve the user experience.
+Viewport Configuration: Learn to set up your HTML with the viewport meta tag to ensure proper scaling on mobile devices.
+Media Queries: Master the use of media queries to change layouts and styles based on screen dimensions.
+Fluid and Relative Sizing: Use percentage widths, viewport units (vh, vw), and other relative measures to create layouts that adjust to the screen.
+Design Approaches: Understand mobile‑first (starting with small screens) versus desktop‑first (starting with large screens) design strategies.
+
+Learning Objectives
+After completing these exercises, you will be able to:
+Explain the importance of responsive design and the benefits it provides.
+Implement the viewport meta tag correctly in HTML.
+Write media queries to adapt layouts for various device widths.
+Create fluid layouts using percentage-based dimensions and viewport units.
+Decide whether a mobile‑first or desktop‑first approach is best for a given project.
+Build responsive websites that look great on devices of all sizes.
