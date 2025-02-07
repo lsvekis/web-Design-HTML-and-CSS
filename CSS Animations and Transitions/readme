@@ -1,0 +1,17 @@
+What You Will Learn
+CSS Transitions:
+Learn how to animate property changes smoothly using transition properties (transition-property, transition-duration, transition-timing-function).
+CSS Animations:
+Understand how to create complex animations using the @keyframes rule along with properties such as animation-name, animation-duration, and animation-iteration-count.
+Transformations:
+Master CSS transforms to rotate, scale, translate, and skew elements for dynamic effects.
+Hover Effects and Interactive Elements:
+Create engaging user interactions (such as hover effects) that combine transitions, animations, and transforms.
+
+Learning Objectives
+After completing these exercises you will be able to:
+Explain and apply CSS transitions to animate changes on hover and focus.
+Create CSS animations using @keyframes and control timing, duration, and iterations.
+Use CSS transforms to manipulate the appearance and position of elements.
+Build interactive and visually engaging effects that improve user experience.
+Combine transitions, animations, and transforms to build advanced hover and interactive effects.
