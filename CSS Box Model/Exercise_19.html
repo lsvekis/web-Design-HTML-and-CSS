@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 19: z-index</title>
+  <style>
+    .box {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      opacity: 0.8;
+    }
+    .box1 {
+      background-color: red;
+      top: 20px;
+      left: 20px;
+      z-index: 1;
+    }
+    .box2 {
+      background-color: blue;
+      top: 60px;
+      left: 60px;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="box box1"></div>
+  <div class="box box2"></div>
+</body>
+</html>
