@@ -1,0 +1,17 @@
+Below is a comprehensive learning package focused exclusively on HTML5 semantic elements and accessibility. In this package you will work through 100 hands‑on coding exercises—each complete with code examples and detailed explanations—and then test your knowledge with 25 multiple‑choice quiz questions (each with full answer explanations).
+
+What You Will Learn
+Importance of Semantic HTML:
+Understand why using meaningful HTML elements improves accessibility, SEO, and maintainability.
+Key Semantic Elements:
+Learn how to use elements such as <header>, <nav>, <article>, <section>, <aside>, and <footer> to structure your web pages.
+Accessibility Best Practices:
+Explore techniques such as using ARIA roles, proper landmark usage, screen reader-friendly markup, and keyboard navigation support.
+
+Learning Objectives
+By completing these exercises you will be able to:
+Identify and use semantic HTML elements to create a well‑structured document.
+Understand how semantic elements benefit search engines and assistive technologies.
+Apply ARIA roles and attributes to enhance accessibility.
+Implement best practices for keyboard navigation and screen reader compatibility.
+Use CSS in conjunction with semantic markup to style accessible pages.
