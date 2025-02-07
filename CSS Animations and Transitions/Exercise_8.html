@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 43: Animation Iteration</title>
+  <style>
+    .finite-animation {
+      width: 100px;
+      height: 100px;
+      background-color: #007BFF;
+      animation: rotateBox 2s linear 3;
+    }
+    @keyframes rotateBox {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="finite-animation"></div>
+</body>
+</html>

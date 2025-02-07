@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 42: Animation Delay</title>
+  <style>
+    .delayed-box {
+      width: 100px;
+      height: 100px;
+      background-color: #007BFF;
+      animation: moveBox 3s ease-in-out 1s infinite;
+    }
+    @keyframes moveBox {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(100px); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="delayed-box"></div>
+</body>
+</html>

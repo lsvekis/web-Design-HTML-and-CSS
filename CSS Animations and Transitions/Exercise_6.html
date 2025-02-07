@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 41: Basic Animation</title>
+  <style>
+    .animate-box {
+      width: 100px;
+      height: 100px;
+      background-color: #007BFF;
+      animation-name: changeColor;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes changeColor {
+      0% { background-color: #007BFF; }
+      50% { background-color: #ff6347; }
+      100% { background-color: #007BFF; }
+    }
+  </style>
+</head>
+<body>
+  <div class="animate-box"></div>
+</body>
+</html>

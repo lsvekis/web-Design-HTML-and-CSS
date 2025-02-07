@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 44: Multi-Property Animation</title>
+  <style>
+    .multi-animate {
+      width: 100px;
+      height: 100px;
+      background-color: #007BFF;
+      animation: complexAnim 4s infinite;
+    }
+    @keyframes complexAnim {
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(1.5);
+        opacity: 0.5;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="multi-animate"></div>
+</body>
+</html>
