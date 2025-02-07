@@ -1,0 +1,16 @@
+What You Will Learn
+CSS Syntax and Selectors:
+You will learn how CSS is structured, including basic rules and various types of selectors such as element, grouping, class, ID, attribute, pseudo‑classes, and pseudo‑elements.
+Colors, Units, and Measurements:
+You’ll learn about different color formats and units of measurement in CSS—including pixels (px), relative units (em, rem), viewport units (vw, vh), and percentages.
+Fonts and Typography:
+You will explore how to set fonts using font-family, control size with font-size, manage spacing with line-height, and adjust text alignment and transformation with text-align and text-transform.
+
+Learning Objectives
+By completing these exercises you will be able to:
+Write and understand valid CSS syntax.
+Apply various selectors to target elements in your HTML.
+Use grouping, class, ID, attribute selectors, pseudo‑classes, and pseudo‑elements effectively.
+Work with different measurement units and colors in CSS.
+Control typography, including font choices, sizes, line heights, and text formatting.
+Build responsive and well‑styled web pages using fundamental CSS techniques.
