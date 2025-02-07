@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS Variables Form</title>
+    <style>
+      :root {
+        --primary-color: #e91e63;
+        --button-bg: var(--primary-color);
+        --button-hover: #ad1457;
+      }
+      .theme-form button {
+        background-color: var(--button-bg);
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      .theme-form button:hover {
+        background-color: var(--button-hover);
+      }
+    </style>
+  </head>
+  <body>
+    <form class="theme-form">
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

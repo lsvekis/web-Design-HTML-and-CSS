@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Meter Example</title>
+  </head>
+  <body>
+    <form>
+      <label for="satisfaction">Satisfaction Level:</label>
+      <input type="range" id="satisfaction" name="satisfaction" min="0" max="10" value="5" oninput="document.getElementById('meter').value=this.value">
+      <br>
+      <meter id="meter" min="0" max="10" value="5"></meter>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+    <script>
+      // This script updates the meter as the range input changes.
+      document.getElementById('satisfaction').addEventListener('input', function() {
+        document.getElementById('meter').value = this.value;
+      });
+    </script>
+  </body>
+</html>

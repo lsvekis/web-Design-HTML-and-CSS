@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Form Progress Bar</title>
+    <style>
+      .progress-container {
+        width: 100%;
+        background-color: #eee;
+      }
+      .progress-bar {
+        width: 50%;
+        height: 20px;
+        background-color: #4caf50;
+        transition: width 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="progress-container">
+      <div class="progress-bar"></div>
+    </div>
+    <form>
+      <label for="info">Additional Info:</label>
+      <textarea id="info" name="info"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

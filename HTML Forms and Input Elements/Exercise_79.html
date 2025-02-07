@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Error Message Animation</title>
+    <style>
+      .error-message {
+        color: red;
+        opacity: 0;
+        transition: opacity 0.5s;
+      }
+      input:invalid + .error-message {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="zip">ZIP Code (5 digits):</label>
+      <input type="text" id="zip" name="zip" pattern="[0-9]{5}" required>
+      <span class="error-message">Invalid ZIP code.</span>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

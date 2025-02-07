@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <form action="/survey" method="post">
+      <fieldset>
+        <legend>How did you hear about us?</legend>
+        <label><input type="radio" name="referral" value="friend" required> Friend</label>
+        <label><input type="radio" name="referral" value="social_media"> Social Media</label>
+        <label><input type="radio" name="referral" value="advertisement"> Advertisement</label>
+      </fieldset>
+      <fieldset>
+        <legend>Which of our services do you use? (Select all that apply)</legend>
+        <label><input type="checkbox" name="services" value="consulting"> Consulting</label>
+        <label><input type="checkbox" name="services" value="development"> Development</label>
+        <label><input type="checkbox" name="services" value="design"> Design</label>
+      </fieldset>
+      <button type="submit">Submit Survey</button>
+    </form>
+  </body>
+</html>

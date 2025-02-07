@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Combined Validation Example</title>
+  </head>
+  <body>
+    <form>
+      <label for="userID">User ID (3 letters followed by 3 numbers):</label>
+      <input type="text" id="userID" name="userID" pattern="[A-Za-z]{3}[0-9]{3}" required title="Format: ABC123">
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

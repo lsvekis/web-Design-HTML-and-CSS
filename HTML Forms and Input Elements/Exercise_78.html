@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Dark Theme Form</title>
+    <style>
+      body {
+        background-color: #333;
+        color: #eee;
+        font-family: Arial, sans-serif;
+      }
+      .dark-form {
+        background-color: #444;
+        padding: 20px;
+        border-radius: 5px;
+        max-width: 400px;
+        margin: 50px auto;
+      }
+      .dark-form input, .dark-form textarea, .dark-form button {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: none;
+        border-radius: 3px;
+      }
+      .dark-form button {
+        background-color: #e91e63;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="dark-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>

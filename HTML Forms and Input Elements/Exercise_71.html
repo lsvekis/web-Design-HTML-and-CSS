@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Custom Checkbox</title>
+    <style>
+      .custom-checkbox {
+        display: none;
+      }
+      .custom-label {
+        position: relative;
+        padding-left: 25px;
+        cursor: pointer;
+      }
+      .custom-label:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 18px;
+        height: 18px;
+        border: 1px solid #ccc;
+        background: #fff;
+      }
+      .custom-checkbox:checked + .custom-label:before {
+        background: #007BFF;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input type="checkbox" id="agree" class="custom-checkbox">
+      <label for="agree" class="custom-label">I agree to the terms</label>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

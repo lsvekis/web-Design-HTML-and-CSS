@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Input Transition</title>
+    <style>
+      input, textarea {
+        transition: border-color 0.3s ease;
+      }
+      input:focus, textarea:focus {
+        border-color: #673ab7;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback"></textarea>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

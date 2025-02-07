@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <form action="/register" method="post">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        <br>
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate">
+      </fieldset>
+      <fieldset>
+        <legend>Account Details</legend>
+        <label for="regEmail">Email:</label>
+        <input type="email" id="regEmail" name="regEmail" required>
+        <br>
+        <label for="regPassword">Password:</label>
+        <input type="password" id="regPassword" name="regPassword" minlength="8" required>
+      </fieldset>
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>

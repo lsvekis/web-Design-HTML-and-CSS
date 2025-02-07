@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Animated Button</title>
+    <style>
+      .btn-animate {
+        background-color: #28a745;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+      }
+      .btn-animate:hover {
+        background-color: #218838;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback"></textarea>
+      <br>
+      <button type="submit" class="btn-animate">Submit Feedback</button>
+    </form>
+  </body>
+</html>

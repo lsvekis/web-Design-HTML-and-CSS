@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Form with Background Image</title>
+    <style>
+      .bg-form {
+        background-image: url('https://via.placeholder.com/400x200');
+        background-size: cover;
+        padding: 20px;
+        max-width: 400px;
+        margin: auto;
+        color: white;
+      }
+      .bg-form input, .bg-form textarea, .bg-form button {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="bg-form">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </body>
+</html>

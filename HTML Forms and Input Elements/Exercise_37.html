@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Responsive Form</title>
+    <style>
+      .responsive-form {
+        max-width: 500px;
+        margin: auto;
+        padding: 20px;
+      }
+      @media (max-width: 600px) {
+        .responsive-form {
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <form class="responsive-form">
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback" rows="4" style="width: 100%;"></textarea>
+      <button type="submit" style="margin-top: 10px;">Send Feedback</button>
+    </form>
+  </body>
+</html>

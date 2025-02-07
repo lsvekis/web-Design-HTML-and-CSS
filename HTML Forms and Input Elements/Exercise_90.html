@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Multi-Section Form Navigation</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#section1">Section 1</a> |
+      <a href="#section2">Section 2</a>
+    </nav>
+    <form action="/submit" method="post">
+      <fieldset id="section1">
+        <legend>Section 1</legend>
+        <label for="info1">Info 1:</label>
+        <input type="text" id="info1" name="info1">
+      </fieldset>
+      <fieldset id="section2">
+        <legend>Section 2</legend>
+        <label for="info2">Info 2:</label>
+        <input type="text" id="info2" name="info2">
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

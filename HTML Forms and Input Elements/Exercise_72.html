@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Custom Radio Button</title>
+    <style>
+      .custom-radio {
+        display: none;
+      }
+      .radio-label {
+        position: relative;
+        padding-left: 25px;
+        cursor: pointer;
+      }
+      .radio-label:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 18px;
+        height: 18px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        background: #fff;
+      }
+      .custom-radio:checked + .radio-label:before {
+        background: #007BFF;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <p>Choose an option:</p>
+      <input type="radio" id="option1" name="option" class="custom-radio">
+      <label for="option1" class="radio-label">Option 1</label>
+      <br>
+      <input type="radio" id="option2" name="option" class="custom-radio">
+      <label for="option2" class="radio-label">Option 2</label>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

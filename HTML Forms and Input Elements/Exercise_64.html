@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Styled Buttons Form</title>
+    <style>
+      .btn {
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        padding: 8px 16px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: #0056b3;
+      }
+      .btn-reset {
+        background-color: #6c757d;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback"></textarea>
+      <br>
+      <button type="submit" class="btn">Submit</button>
+      <button type="reset" class="btn btn-reset">Reset</button>
+    </form>
+  </body>
+</html>

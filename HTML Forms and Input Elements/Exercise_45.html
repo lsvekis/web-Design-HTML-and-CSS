@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Password Validation</title>
+  </head>
+  <body>
+    <form>
+      <label for="password">Password (min 8 characters, at least one number):</label>
+      <input type="password" id="password" name="password" minlength="8" pattern="(?=.*\d).{8,}" title="Must contain at least one number and be 8 or more characters long" required>
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>

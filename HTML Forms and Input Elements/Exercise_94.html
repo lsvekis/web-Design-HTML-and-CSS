@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Input Icon Example</title>
+    <style>
+      .icon-input {
+        position: relative;
+      }
+      .icon-input input {
+        padding-left: 30px;
+      }
+      .icon-input:before {
+        content: "🔍";
+        position: absolute;
+        left: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="icon-input">
+        <input type="search" name="search" placeholder="Search...">
+      </div>
+      <button type="submit">Go</button>
+    </form>
+  </body>
+</html>

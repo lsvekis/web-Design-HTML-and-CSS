@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Multi-Column Form</title>
+    <style>
+      .multi-column {
+        display: flex;
+        gap: 20px;
+      }
+      .column {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="multi-column">
+        <div class="column">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName">
+        </div>
+        <div class="column">
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName">
+        </div>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

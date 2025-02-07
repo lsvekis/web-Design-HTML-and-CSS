@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Complex Pattern Validation</title>
+  </head>
+  <body>
+    <form>
+      <label for="serial">Serial Number (Format: ABC-1234):</label>
+      <input type="text" id="serial" name="serial" pattern="[A-Z]{3}-[0-9]{4}" title="Format: ABC-1234" required>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

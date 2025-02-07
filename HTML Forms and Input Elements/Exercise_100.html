@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Comprehensive web form integrating various HTML form elements and CSS styling.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Web Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body { font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px; }
+      .form-container { max-width: 600px; margin: auto; background: #fff; padding: 20px; border-radius: 5px; }
+      .form-container h2 { text-align: center; }
+      .form-group { margin-bottom: 15px; }
+      .form-group label { display: block; margin-bottom: 5px; }
+      .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 8px; }
+      .btn { background-color: #007BFF; color: #fff; border: none; padding: 10px 20px; cursor: pointer; }
+      .btn:hover { background-color: #0056b3; }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Contact & Registration Form</h2>
+      <form action="/submit" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <div class="form-group">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+          </div>
+          <div class="form-group">
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate">
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Account Details</legend>
+          <div class="form-group">
+            <label for="regEmail">Email:</label>
+            <input type="email" id="regEmail" name="regEmail" required>
+          </div>
+          <div class="form-group">
+            <label for="regPassword">Password:</label>
+            <input type="password" id="regPassword" name="regPassword" minlength="8" required>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Message</legend>
+          <div class="form-group">
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Enter your message here..."></textarea>
+          </div>
+        </fieldset>
+        <div class="form-group">
+          <label><input type="checkbox" name="newsletter"> Subscribe to our newsletter</label>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
