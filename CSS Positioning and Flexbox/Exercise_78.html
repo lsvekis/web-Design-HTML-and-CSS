@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 78: Responsive Flex Layout</title>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .item {
+      flex: 1 1 calc(33.333% - 10px);
+      background-color: #cce;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    @media (max-width: 600px) {
+      .item {
+        flex: 1 1 calc(50% - 10px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+    <div class="item">Item 6</div>
+  </div>
+</body>
+</html>

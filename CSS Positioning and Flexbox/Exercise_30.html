@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 30: Clearfix Hack</title>
+  <style>
+    .clearfix::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+    .box {
+      float: left;
+      width: 45%;
+      margin: 2.5%;
+      background-color: #eef;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="clearfix">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+  </div>
+  <p>The clearfix hack ensures that the parent container encloses the floated boxes.</p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 81: Responsive Header</title>
+  <style>
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #ddd;
+      padding: 10px;
+      z-index: 100;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 10px;
+    }
+    .content {
+      margin-top: 60px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#">Logo</a>
+      <div>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <div class="content">
+    <p>Page content goes here. Scroll to see fixed header.</p>
+    <p style="height: 1500px;">Long content...</p>
+  </div>
+</body>
+</html>

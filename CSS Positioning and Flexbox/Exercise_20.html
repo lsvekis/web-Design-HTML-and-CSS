@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 20: Combined Positioning</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #ccc;
+      padding: 10px;
+      z-index: 100;
+    }
+    .sidebar {
+      position: sticky;
+      top: 60px;
+      width: 200px;
+      background: #eef;
+      padding: 10px;
+      float: left;
+    }
+    .main {
+      margin-left: 210px;
+      padding: 70px 20px 20px;
+    }
+    .absolute-element {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      background: #fde;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>Fixed Header</header>
+  <div class="sidebar">Sticky Sidebar</div>
+  <div class="main">
+    <p>Main content goes here. Scroll to see the sticky sidebar.</p>
+    <div class="absolute-element">Absolute Element in Main</div>
+    <p style="height: 1500px;">Long content...</p>
+  </div>
+</body>
+</html>

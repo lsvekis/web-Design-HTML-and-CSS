@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 62: Flex Shrink</title>
+  <style>
+    .flex-container {
+      display: flex;
+      width: 300px;
+      background-color: #eef;
+      padding: 10px;
+    }
+    .shrink {
+      background-color: #cce;
+      flex-shrink: 1;
+      padding: 20px;
+      margin: 5px;
+    }
+    .no-shrink {
+      background-color: #cde;
+      flex-shrink: 0;
+      padding: 20px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="shrink">This item can shrink.</div>
+    <div class="no-shrink">This item will not shrink.</div>
+  </div>
+</body>
+</html>

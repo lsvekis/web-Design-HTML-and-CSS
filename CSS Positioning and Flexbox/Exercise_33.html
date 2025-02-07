@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 33: Float with Inline-Block</title>
+  <style>
+    .float-box {
+      float: left;
+      width: 40%;
+      background-color: #eef;
+      padding: 10px;
+      margin: 10px;
+    }
+    .inline-block-box {
+      display: inline-block;
+      width: 40%;
+      background-color: #cfe;
+      padding: 10px;
+      margin: 10px;
+      vertical-align: top;
+    }
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div class="clearfix">
+    <div class="float-box">Float Box</div>
+    <div class="inline-block-box">Inline-Block Box</div>
+  </div>
+</body>
+</html>

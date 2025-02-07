@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 37: Float Images with Captions</title>
+  <style>
+    .gallery-item {
+      float: left;
+      width: 30%;
+      margin: 1%;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    .gallery-item img {
+      width: 100%;
+      display: block;
+    }
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div class="clearfix">
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/150" alt="Image 1">
+      <p>Caption 1</p>
+    </div>
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/150" alt="Image 2">
+      <p>Caption 2</p>
+    </div>
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/150" alt="Image 3">
+      <p>Caption 3</p>
+    </div>
+  </div>
+</body>
+</html>

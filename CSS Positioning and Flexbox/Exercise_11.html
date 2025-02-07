@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 11: Relative Container, Absolute Child</title>
+  <style>
+    .container {
+      position: relative;
+      width: 300px;
+      height: 200px;
+      border: 1px solid #888;
+    }
+    .child {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background-color: #fde;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="child">Absolutely positioned within a relative container.</div>
+  </div>
+</body>
+</html>

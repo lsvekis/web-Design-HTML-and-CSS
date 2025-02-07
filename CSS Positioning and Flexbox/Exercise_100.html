@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 100: Complete Layout</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #ccc;
+      padding: 10px;
+      z-index: 100;
+    }
+    .container {
+      display: flex;
+      margin-top: 60px;
+    }
+    .sidebar {
+      flex: 0 0 200px;
+      background: #eef;
+      padding: 20px;
+    }
+    .main {
+      flex: 1;
+      padding: 20px;
+      background: #cce;
+    }
+    footer {
+      background: #ccc;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>Fixed Header</header>
+  <div class="container">
+    <div class="sidebar">Sidebar Content</div>
+    <div class="main">
+      <p>Main content goes here. This area adjusts with flexbox.</p>
+      <p style="height: 1000px;">Long content to demonstrate scrolling.</p>
+    </div>
+  </div>
+  <footer>Fixed Footer</footer>
+</body>
+</html>

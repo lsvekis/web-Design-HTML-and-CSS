@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 32: Image Gallery with Float</title>
+  <style>
+    .gallery img {
+      float: left;
+      width: 30%;
+      margin: 1%;
+      box-sizing: border-box;
+    }
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery clearfix">
+    <img src="https://via.placeholder.com/150" alt="Gallery Image 1">
+    <img src="https://via.placeholder.com/150" alt="Gallery Image 2">
+    <img src="https://via.placeholder.com/150" alt="Gallery Image 3">
+  </div>
+</body>
+</html>

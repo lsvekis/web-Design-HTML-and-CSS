@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 39: Clear Inline Floats</title>
+  <style>
+    .float-inline {
+      float: left;
+      width: 100px;
+      background-color: #cdf;
+      margin: 5px;
+    }
+    .clear {
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <span class="float-inline">Box 1</span>
+  <span class="float-inline">Box 2</span>
+  <div class="clear"></div>
+  <p>This paragraph starts after the floated spans.</p>
+</body>
+</html>

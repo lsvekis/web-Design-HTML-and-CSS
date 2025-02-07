@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 69: Multiple align-self Values</title>
+  <style>
+    .flex-container {
+      display: flex;
+      height: 150px;
+      align-items: center;
+      background-color: #eef;
+      padding: 10px;
+    }
+    .item1 {
+      background-color: #cce;
+      padding: 20px;
+      margin: 5px;
+      align-self: flex-start;
+    }
+    .item2 {
+      background-color: #cde;
+      padding: 20px;
+      margin: 5px;
+      align-self: center;
+    }
+    .item3 {
+      background-color: #ced;
+      padding: 20px;
+      margin: 5px;
+      align-self: flex-end;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="item1">Flex-Start</div>
+    <div class="item2">Center</div>
+    <div class="item3">Flex-End</div>
+  </div>
+</body>
+</html>

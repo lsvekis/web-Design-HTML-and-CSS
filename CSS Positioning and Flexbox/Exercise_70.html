@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 70: Mixed Flex Items</title>
+  <style>
+    .flex-container {
+      display: flex;
+      background-color: #eef;
+      padding: 10px;
+    }
+    .item-small {
+      background-color: #cce;
+      flex: 1 1 100px;
+      margin: 5px;
+      padding: 20px;
+    }
+    .item-large {
+      background-color: #cde;
+      flex: 2 1 150px;
+      margin: 5px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="item-small">Small Item</div>
+    <div class="item-large">Large Item (grows more)</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 91: Nested Flex Cards</title>
+  <style>
+    .card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px;
+      width: 300px;
+    }
+    .card-header, .card-footer {
+      background-color: #ddd;
+      padding: 5px;
+      text-align: center;
+    }
+    .card-body {
+      display: flex;
+      flex: 1;
+      padding: 10px;
+      background-color: #eef;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="card-header">Card Header</div>
+    <div class="card-body">Card Body with nested flex layout.</div>
+    <div class="card-footer">Card Footer</div>
+  </div>
+</body>
+</html>

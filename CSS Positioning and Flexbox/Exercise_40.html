@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 40: Float Navigation</title>
+  <style>
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    nav li {
+      float: left;
+      margin-right: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #007BFF;
+    }
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul class="clearfix">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</body>
+</html>

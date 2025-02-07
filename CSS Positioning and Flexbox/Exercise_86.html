@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 86: Complex Page Layout</title>
+  <style>
+    .page {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #ccc;
+      padding: 10px;
+    }
+    .main-content {
+      display: flex;
+      flex: 1;
+    }
+    .sidebar {
+      flex: 0 0 200px;
+      background-color: #eef;
+      padding: 20px;
+    }
+    .content {
+      flex: 1;
+      background-color: #cce;
+      padding: 20px;
+    }
+    footer {
+      background-color: #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>Header</header>
+    <div class="main-content">
+      <div class="sidebar">Sidebar</div>
+      <div class="content">Main Content</div>
+    </div>
+    <footer>Footer</footer>
+  </div>
+</body>
+</html>

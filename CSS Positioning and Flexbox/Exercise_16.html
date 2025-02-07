@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 16: Overlap Fixed & Absolute</title>
+  <style>
+    .fixed-banner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #ccf;
+      padding: 10px;
+      z-index: 100;
+    }
+    .absolute-box {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background-color: #cfc;
+      padding: 20px;
+      z-index: 50;
+    }
+  </style>
+</head>
+<body>
+  <div class="fixed-banner">Fixed Banner</div>
+  <div class="absolute-box">Absolute Box behind the banner</div>
+  <p style="margin-top: 100px;">Additional content here...</p>
+</body>
+</html>

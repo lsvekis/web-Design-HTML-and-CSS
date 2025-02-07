@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 98: Nested Flex Navigation</title>
+  <style>
+    .nav {
+      display: flex;
+      background-color: #ddd;
+      padding: 10px;
+    }
+    .nav-item {
+      position: relative;
+      margin: 0 10px;
+    }
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0;
+      background-color: #eee;
+      padding: 10px;
+      flex-direction: column;
+      min-width: 100px;
+      z-index: 10;
+    }
+    .nav-item:hover .submenu {
+      display: flex;
+    }
+    .submenu a {
+      padding: 5px 0;
+      text-decoration: none;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-item">
+      <a href="#">Menu 1</a>
+      <div class="submenu">
+        <a href="#">Submenu 1-1</a>
+        <a href="#">Submenu 1-2</a>
+      </div>
+    </div>
+    <div class="nav-item">
+      <a href="#">Menu 2</a>
+      <div class="submenu">
+        <a href="#">Submenu 2-1</a>
+        <a href="#">Submenu 2-2</a>
+      </div>
+    </div>
+  </nav>
+</body>
+</html>

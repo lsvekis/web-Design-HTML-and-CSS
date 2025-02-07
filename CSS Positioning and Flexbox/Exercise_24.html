@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 24: Two-Column Layout with Float</title>
+  <style>
+    .column {
+      float: left;
+      width: 45%;
+      margin: 2.5%;
+      background-color: #eef;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div class="clearfix">
+    <div class="column">Column 1 content goes here.</div>
+    <div class="column">Column 2 content goes here.</div>
+  </div>
+</body>
+</html>

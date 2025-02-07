@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 93: Centered Modal</title>
+  <style>
+    .modal-overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.5);
+      z-index: 1000;
+    }
+    .modal {
+      background-color: #fff;
+      padding: 20px;
+      width: 80%;
+      max-width: 500px;
+    }
+  </style>
+</head>
+<body>
+  <div class="modal-overlay">
+    <div class="modal">
+      <h2>Modal Title</h2>
+      <p>This modal is perfectly centered.</p>
+    </div>
+  </div>
+</body>
+</html>

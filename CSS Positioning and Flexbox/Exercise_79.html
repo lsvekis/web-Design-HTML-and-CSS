@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 79: Order and Align Self</title>
+  <style>
+    .flex-container {
+      display: flex;
+      align-items: flex-end;
+      background-color: #eef;
+      padding: 10px;
+      height: 150px;
+    }
+    .item1 {
+      order: 2;
+      background-color: #cce;
+      padding: 20px;
+    }
+    .item2 {
+      order: 1;
+      background-color: #cde;
+      padding: 20px;
+      align-self: flex-start;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="item1">Item 1 (order 2)</div>
+    <div class="item2">Item 2 (order 1, aligned to top)</div>
+  </div>
+</body>
+</html>

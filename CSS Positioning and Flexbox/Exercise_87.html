@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 87: Dashboard Grid</title>
+  <style>
+    .dashboard {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .widget {
+      flex: 1 1 calc(33% - 40px);
+      background-color: #cce;
+      padding: 20px;
+      box-sizing: border-box;
+      min-width: 250px;
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <div class="widget">Widget 1</div>
+    <div class="widget">Widget 2</div>
+    <div class="widget">Widget 3</div>
+    <div class="widget">Widget 4</div>
+    <div class="widget">Widget 5</div>
+    <div class="widget">Widget 6</div>
+  </div>
+</body>
+</html>

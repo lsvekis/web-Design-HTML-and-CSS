@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 4: Fixed Positioning</title>
+  <style>
+    .fixed-header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #cce;
+      border-bottom: 2px solid #99c;
+      padding: 10px;
+      z-index: 1000;
+    }
+    .content {
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <div class="fixed-header">This header stays fixed at the top.</div>
+  <div class="content">
+    <p>Scroll down to see the header remain in place.</p>
+    <!-- Add more content to enable scrolling -->
+    <p style="height: 1500px;">Long content...</p>
+  </div>
+</body>
+</html>

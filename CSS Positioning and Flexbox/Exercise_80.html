@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 80: Nested Flex Containers</title>
+  <style>
+    .outer {
+      display: flex;
+      background-color: #eef;
+      padding: 10px;
+    }
+    .inner {
+      display: flex;
+      flex-direction: column;
+      background-color: #cce;
+      padding: 10px;
+      margin: 5px;
+    }
+    .inner div {
+      margin: 5px 0;
+      background-color: #def;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="outer">
+    <div class="inner">
+      <div>Nested Item 1</div>
+      <div>Nested Item 2</div>
+    </div>
+    <div class="inner">
+      <div>Nested Item A</div>
+      <div>Nested Item B</div>
+    </div>
+  </div>
+</body>
+</html>

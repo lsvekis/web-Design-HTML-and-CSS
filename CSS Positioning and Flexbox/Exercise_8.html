@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 8: Fixed Footer</title>
+  <style>
+    .fixed-footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #ddd;
+      text-align: center;
+      padding: 10px;
+      border-top: 1px solid #bbb;
+    }
+    .content {
+      padding-bottom: 60px;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <p>Content goes here. Scroll down to see the fixed footer.</p>
+    <p style="height: 1500px;">Long content...</p>
+  </div>
+  <div class="fixed-footer">This footer is fixed at the bottom.</div>
+</body>
+</html>

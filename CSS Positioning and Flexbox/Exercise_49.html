@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 49: Flex Shrink</title>
+  <style>
+    .flex-container {
+      display: flex;
+      width: 300px;
+      background-color: #eef;
+      padding: 10px;
+    }
+    .item {
+      background-color: #cce;
+      padding: 20px;
+      margin: 5px;
+      flex-shrink: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2 with more content that might shrink.</div>
+  </div>
+</body>
+</html>

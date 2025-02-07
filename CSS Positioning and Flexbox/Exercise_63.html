@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 63: Align Self</title>
+  <style>
+    .flex-container {
+      display: flex;
+      align-items: center;
+      height: 150px;
+      background-color: #eef;
+      padding: 10px;
+    }
+    .item {
+      background-color: #cce;
+      padding: 20px;
+      margin: 5px;
+    }
+    .align-top {
+      align-self: flex-start;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="item">Centered Item</div>
+    <div class="item align-top">Aligned to top using align-self</div>
+  </div>
+</body>
+</html>
