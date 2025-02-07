@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 23: Overlapping Grid Areas</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px 100px;
+      grid-template-areas:
+        "a a"
+        "b c";
+      gap: 10px;
+      padding: 10px;
+      background-color: #f8f8f8;
+    }
+    .a { grid-area: a; background-color: #cce; padding: 20px; }
+    .b { grid-area: b; background-color: #eef; padding: 20px; }
+    .c { grid-area: c; background-color: #dce; padding: 20px; }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="a">Area A spans top row</div>
+    <div class="b">Area B</div>
+    <div class="c">Area C</div>
+  </div>
+</body>
+</html>

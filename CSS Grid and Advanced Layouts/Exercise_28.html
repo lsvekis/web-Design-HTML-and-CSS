@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 28: Overlapping Grid Items</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 100px);
+      gap: 10px;
+      position: relative;
+      padding: 10px;
+      background-color: #f8f8f8;
+    }
+    .grid-item {
+      background-color: #cce;
+      padding: 10px;
+      text-align: center;
+    }
+    .overlap {
+      grid-column: 2 / 4;
+      grid-row: 2 / 4;
+      background-color: rgba(255, 200, 0, 0.7);
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item overlap">Overlap</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+  </div>
+</body>
+</html>

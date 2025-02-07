@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 8: grid-auto-rows</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-rows: 80px;
+      gap: 10px;
+      background-color: #f8f8f8;
+      padding: 10px;
+    }
+    .grid-item {
+      background-color: #cce;
+      padding: 10px;
+      border: 1px solid #99c;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">Item A</div>
+    <div class="grid-item">Item B</div>
+    <div class="grid-item">Item C (80px tall)</div>
+  </div>
+</body>
+</html>

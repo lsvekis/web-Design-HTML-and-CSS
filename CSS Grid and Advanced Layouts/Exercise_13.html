@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 13: Mixed Fixed and Flexible Tracks</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      grid-template-rows: 100px auto;
+      gap: 10px;
+      padding: 10px;
+      background-color: #f8f8f8;
+    }
+    .grid-item {
+      background-color: #cce;
+      padding: 20px;
+      border: 1px solid #99c;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">Fixed 200px Column, 100px Row</div>
+    <div class="grid-item">Flexible Column</div>
+    <div class="grid-item">Flexible Row</div>
+    <div class="grid-item">Flexible Content</div>
+  </div>
+</body>
+</html>

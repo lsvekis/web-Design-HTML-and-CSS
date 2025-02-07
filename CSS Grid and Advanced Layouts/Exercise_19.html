@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 19: Implicit Rows with Gap</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+      background-color: #f8f8f8;
+      padding: 10px;
+    }
+    .grid-item {
+      background-color: #cce;
+      padding: 20px;
+      border: 1px solid #99c;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">Item 1</div>
+    <div class="grid-item">Item 2</div>
+    <div class="grid-item">Item 3 (Implicit Row)</div>
+    <div class="grid-item">Item 4 (Implicit Row)</div>
+  </div>
+</body>
+</html>

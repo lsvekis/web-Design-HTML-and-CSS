@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 6: Grid Areas</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto;
+      grid-template-areas:
+        "header header"
+        "main sidebar";
+      gap: 10px;
+      background-color: #f8f8f8;
+      padding: 10px;
+    }
+    .header { grid-area: header; background-color: #cce; padding: 20px; }
+    .main { grid-area: main; background-color: #dce; padding: 20px; }
+    .sidebar { grid-area: sidebar; background-color: #eef; padding: 20px; }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="header">Header Area</div>
+    <div class="main">Main Content</div>
+    <div class="sidebar">Sidebar</div>
+  </div>
+</body>
+</html>

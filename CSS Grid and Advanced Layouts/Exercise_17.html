@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 17: Named Grid Areas</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: auto auto;
+      grid-template-areas:
+        "header header"
+        "sidebar content";
+      gap: 10px;
+      padding: 10px;
+      background-color: #f8f8f8;
+    }
+    .header { grid-area: header; background-color: #cce; padding: 20px; }
+    .sidebar { grid-area: sidebar; background-color: #eef; padding: 20px; }
+    .content { grid-area: content; background-color: #dce; padding: 20px; }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="header">Header</div>
+    <div class="sidebar">Sidebar</div>
+    <div class="content">Main Content</div>
+  </div>
+</body>
+</html>

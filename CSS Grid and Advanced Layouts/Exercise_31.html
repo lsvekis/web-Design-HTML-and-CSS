@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 41: Nested Grid and Flex</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 10px;
+      padding: 10px;
+      background-color: #f8f8f8;
+    }
+    .sidebar {
+      background-color: #eef;
+      padding: 20px;
+    }
+    .main {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background-color: #cce;
+      padding: 20px;
+    }
+    .main-item {
+      background-color: #ddd;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="sidebar">Sidebar Content</div>
+    <div class="main">
+      <div class="main-item">Main Item 1</div>
+      <div class="main-item">Main Item 2</div>
+      <div class="main-item">Main Item 3</div>
+    </div>
+  </div>
+</body>
+</html>
