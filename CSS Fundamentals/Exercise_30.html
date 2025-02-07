@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Exercise 30: Child Selector with Class</title>
+    <style>
+      .parent > .child {
+        border: 1px dashed #333;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child">Direct child element.</div>
+      <div>
+        <div class="child">Nested child (not selected).</div>
+      </div>
+    </div>
+  </body>
+</html>

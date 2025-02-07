@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Exercise 72: CSS Variables</title>
+    <style>
+      :root {
+        --main-padding: 20px;
+      }
+      .box {
+        padding: var(--main-padding);
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">This box uses a CSS variable for padding.</div>
+  </body>
+</html>
