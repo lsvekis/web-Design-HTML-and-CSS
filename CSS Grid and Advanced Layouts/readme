@@ -1,0 +1,22 @@
+Below is a comprehensive learning package focused exclusively on CSS Grid and Advanced Layouts. This package includes:
+100 hands‑on coding exercises with complete HTML and CSS code examples and detailed explanations.
+25 multiple‑choice quiz questions with full explanations of the answers.
+All exercises are based solely on HTML and CSS code and cover these topics:
+CSS Grid Basics:
+Learn to create grid containers with display: grid, define columns with grid-template-columns, and set rows with grid-template-rows.
+Grid Advanced Features:
+Discover how to use grid-gap (or simply gap), assign grid areas with grid-area, and use fractional (fr) units for flexible sizing.
+Combining Flexbox and Grid for Complex Layouts:
+Learn to integrate Grid and Flexbox techniques to build advanced, hybrid layouts.
+Media Queries for Responsive Design:
+Use media queries to adjust grid and flex layouts for various viewport sizes.
+
+What You Will Learn
+CSS Grid Fundamentals:
+How to create a grid container, define columns and rows, and place items using grid properties.
+Advanced Grid Features:
+How to create gaps, assign named areas, and use fr units to distribute space evenly.
+Integrating Flexbox with Grid:
+How to combine two powerful layout modules to solve complex design challenges.
+Responsive Layouts with Media Queries:
+How to adjust your grid (and flex) layouts based on screen size for a fully responsive design.
