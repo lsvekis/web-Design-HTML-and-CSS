@@ -1,0 +1,9 @@
+Below is a comprehensive learning package focused on HTML basics. It includes:
+100 hands-on coding exercises with complete code examples, detailed explanations, and clear learning objectives.
+25 multiple-choice quiz questions with full answer explanations to test your understanding.
+You’ll work through topics including the structure of an HTML document, essential elements (like paragraphs, headings, links, images, lists, divs), use of attributes (such as href, src, alt, title, id, class), and best practices for writing HTML. Each exercise is designed so that by the end you will have mastered the basics needed to create well-formed HTML pages.
+Overall Learning Objectives:
+Understand the anatomy of an HTML document including <!DOCTYPE>, <html>, <head>, and <body>
+Become familiar with essential HTML elements such as <p>, <h1>–<h6>, <a>, <img>, <ul>, <ol>, and <div>
+Learn how to use and assign attributes (e.g., href, src, alt, title, id, class) to HTML elements
+Apply best practices for writing clean, accessible, and semantic HTML
