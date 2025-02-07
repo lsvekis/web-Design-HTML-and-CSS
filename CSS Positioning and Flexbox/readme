@@ -1,0 +1,26 @@
+Below is a comprehensive learning package focused exclusively on CSS Positioning and Flexbox. This package contains:
+100 hands‑on coding exercises with complete HTML and CSS code examples and detailed explanations.
+25 multiple‑choice quiz questions with full answer explanations.
+All exercises are based solely on HTML and CSS code and cover the following topics:
+CSS Positioning: Learn the five positioning schemes (static, relative, absolute, fixed, and sticky) and how they affect element layout.
+CSS Float and Clear: Understand how floating elements works and how to clear floats to maintain proper layout flow.
+Flexbox Basics: Discover how to create flexible layouts with display: flex and control the main axis with flex-direction, justify-content, and align-items.
+Flexbox Advanced: Explore advanced flex properties like flex-grow, flex-shrink, and align-self to fine-tune your layout.
+
+What You Will Learn
+CSS Positioning Techniques:
+Gain hands‑on experience positioning elements using different schemes. Learn the effects of static, relative, absolute, fixed, and sticky positioning.
+Managing Floats:
+Understand how floating elements work, how to use the float property, and how to clear floats to prevent layout issues.
+Flexbox Fundamentals:
+Build responsive layouts using Flexbox. Learn to control the layout flow with flex-direction, align items using justify-content and align-items, and adjust item spacing and order.
+Advanced Flexbox:
+Master advanced flex properties to create dynamic, adaptive layouts. Control growth and shrinkage with flex-grow and flex-shrink and override container alignment using align-self.
+
+Learning Objectives
+After completing these 100 exercises you will be able to:
+Explain and apply various CSS positioning methods to control layout.
+Use floats and clear them properly in multi‑column designs.
+Create responsive and adaptable layouts using Flexbox.
+Manipulate flex item behavior with advanced flex properties.
+Integrate positioning and Flexbox techniques to build robust, responsive web layouts.
